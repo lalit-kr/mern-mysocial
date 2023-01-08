@@ -1,0 +1,27 @@
+.header {
+  margin-top: 5vw;
+}
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+.headerTitlesSm {
+  position: absolute;
+  font-size: 20px;
+  top: 18%;
+}
+.headerTitlesLg {
+  position: absolute;
+  font-size: 100px;
+  top: 19%;
+}
+.headerImg {
+  width: 100%;
+  height: 450px;
+  margin-top: 8.5vw;
+  object-fit: cover;
+  background-image: url("../images/5.jpg");
+}

@@ -1,0 +1,18 @@
+.leftbarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.leftbarFriend:hover {
+  color: dodgerblue;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.leftbarFriendImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 10px;
+}

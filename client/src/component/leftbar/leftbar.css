@@ -1,0 +1,83 @@
+.leftbar {
+  flex: 3;
+  overflow-y: scroll;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: aliceblue;
+}
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+.letfbarWrapper {
+  padding: 20px;
+}
+.leftbarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: 40px;
+}
+.leftListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.leftListItemText:hover {
+  color: dodgerblue;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.leftbarIcon {
+  margin-right: 15px;
+}
+.leftbarIcon:hover {
+  color: dodgerblue;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.leftbarButton {
+  margin-left: 20px;
+  width: 11vw;
+  padding: 0.7vw;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  color: dodgerblue;
+}
+.leftbarButton:hover {
+  background-color: dodgerblue;
+  color: aliceblue;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.leftbarHr {
+  margin: 20px 0;
+}
+.leftbarFriendList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.leftbarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.leftbarFriend:hover {
+  color: dodgerblue;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.leftbarFriendImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 10px;
+}
